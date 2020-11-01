@@ -2,7 +2,7 @@ h1{
     color: black;
     text-align: center;
     font-size: 60px;
-    font-family: "Sitka Heading";
+    font-family: "Arial Black";
 }
 .headerDiv{
     background-color: red;
@@ -21,10 +21,9 @@ h1{
     *display: inline;
     zoom: 1;
     vertical-align: top;
-    padding: 5px;
     text-align: center;
+    font-family: Arial;
 }
-
 .home{
     width: 24%;
     background-color: red;
@@ -42,4 +41,28 @@ h1{
 .mainBody{
     margin: 0;
     background-color: gray;
+}
+.paragraph1,.paragraph2{
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    vertical-align: top;
+    text-align: center;
+    font-family: "Arial";
+}
+.paragraph1{
+    padding: 30px;
+    width: 45%;
+    font-size: 30px;
+}
+.paragraph2{
+    padding: 30px;
+    width: 45%;
+    font-size: 30px;
+}
+.footer{
+    background-color: red;
+    font-family: Arial;
+    padding: 40px;
+    font-size: 20px;
 }
