@@ -1,0 +1,45 @@
+h1{
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    font-family: "Sitka Heading";
+}
+.headerDiv{
+    background-color: red;
+    width: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.menuButtons{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+
+}
+.home,.play,.gDesign,.devTeam{
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    vertical-align: top;
+    padding: 5px;
+    text-align: center;
+}
+
+.home{
+    width: 24%;
+    background-color: red;
+}
+.play{
+    width: 24%;
+}
+.gDesign{
+    width: 24%;
+    background-color: red;
+}
+.devTeam{
+    width: 24%;
+}
+.mainBody{
+    margin: 0;
+    background-color: gray;
+}
