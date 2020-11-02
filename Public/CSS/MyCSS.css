@@ -27,16 +27,26 @@ h1{
 .home{
     width: 24%;
     background-color: red;
+    margin: 0;
 }
 .play{
     width: 24%;
 }
+.play:hover{
+    background-color: red;
+    margin: 0;
+}
 .gDesign{
     width: 24%;
+}
+.gDesign:hover{
     background-color: red;
 }
 .devTeam{
     width: 24%;
+}
+.devTeam:hover{
+    background-color: red;
 }
 .mainBody{
     margin: 0;
