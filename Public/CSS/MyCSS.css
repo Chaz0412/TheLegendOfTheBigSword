@@ -89,6 +89,22 @@ h1{
     zoom: 1;
     vertical-align: top;
 }
+.devTeamParagraph1{
+    width: 40%;
+}
+.devTeamParagraph2{
+    width: 40%;
+}
+.devTeamParagraph1,.devTeamParagraph2{
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    vertical-align: top;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+    padding: 60px;
+}
 
 .footer{
     background-color: red;
