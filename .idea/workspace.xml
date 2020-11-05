@@ -11,10 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dd753e1-f588-43b9-8b91-217c92e661ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Public/DevTeam.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Public/CSS/MyCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/Public/CSS/MyCSS.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Public/Design.html" beforeDir="false" afterPath="$PROJECT_DIR$/Public/Design.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/DevTeam.html" beforeDir="false" afterPath="$PROJECT_DIR$/Public/DevTeam.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Public/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Public/Index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Public/Play.html" beforeDir="false" afterPath="$PROJECT_DIR$/Public/Play.html" afterDir="false" />
     </list>
@@ -74,7 +74,9 @@
       <workItem from="1604254054752" duration="2587000" />
       <workItem from="1604257245957" duration="115000" />
       <workItem from="1604339431948" duration="1842000" />
-      <workItem from="1604424086442" duration="5615000" />
+      <workItem from="1604424086442" duration="5698000" />
+      <workItem from="1604493516171" duration="370000" />
+      <workItem from="1604579518467" duration="996000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1604254115187</created>
@@ -104,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604428667832</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Layout for dev team page done">
+      <created>1604429784342</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604429784342</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,12 +136,13 @@
     <MESSAGE value="Index page Complete" />
     <MESSAGE value="Added play page" />
     <MESSAGE value="Layout for Index, play and game design pages complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Layout for Index, play and game design pages complete" />
+    <MESSAGE value="Layout for dev team page done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Layout for dev team page done" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="567" y="284" key="Vcs.Push.Dialog.v2" timestamp="1604428670552">
+    <state x="567" y="284" key="Vcs.Push.Dialog.v2" timestamp="1604429785950">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="567" y="284" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604428670552" />
+    <state x="567" y="284" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604429785950" />
   </component>
 </project>
