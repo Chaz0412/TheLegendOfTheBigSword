@@ -5,7 +5,7 @@ h1{
     font-family: "Arial Black";
 }
 .headerDiv{
-    background-color: red;
+    background-color: #800020;
     width: auto;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -14,6 +14,8 @@ h1{
 .menuButtons{
     color: white;
     font-size: 40px;
+    position: sticky;
+    top: 0;
 }
 .home,.play,.gDesign,.devTeam{
     display: inline-block;
@@ -28,20 +30,20 @@ h1{
     width: 25%;
 }
 .home:hover{
-    background-color: red;
+    background-color: #800020;
     margin: 0;
 }
 
 .play:hover{
-    background-color: red;
+    background-color: #800020;
     margin: 0;
 }
 
 .gDesign:hover{
-    background-color: red;
+    background-color: #800020;
 }
 .devTeam:hover{
-    background-color: red;
+    background-color: #800020;
 }
 .mainBody{
     background-color: gray;
@@ -106,7 +108,7 @@ h1{
 }
 
 .footer{
-    background-color: red;
+    background-color: #800020;
     font-family: Arial;
     padding: 40px;
     font-size: 20px;
