@@ -47,6 +47,7 @@ h1{
 }
 .mainBody{
     background-color: gray;
+    text-align: center;
 }
 .paragraph1{
     display: inline-block;
