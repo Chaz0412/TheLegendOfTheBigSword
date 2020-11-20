@@ -48,24 +48,17 @@ h1{
 .mainBody{
     background-color: gray;
 }
-.paragraph1,.paragraph2{
+.paragraph1{
     display: inline-block;
     *display: inline;
     zoom: 1;
     vertical-align: top;
     text-align: center;
     font-family: "Arial", serif;
-}
-.paragraph1{
     padding: 30px;
-    width: 45%;
-    font-size: 30px;
+    font-size: 40px;
 }
-.paragraph2{
-    padding: 30px;
-    width: 45%;
-    font-size: 30px;
-}
+
 .playParagraph1{
     padding: 60px;
     font-size: 50px;
