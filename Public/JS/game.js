@@ -1,5 +1,6 @@
 var config = {
     type: Phaser.AUTO,
+    parent: 'mainBody',
     width: 800,
     height: 600,
     physics: {
