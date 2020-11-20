@@ -6,13 +6,27 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dd753e1-f588-43b9-8b91-217c92e661ef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Public/JS/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/Public/JS/game.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +90,11 @@
       <workItem from="1605175951419" duration="943000" />
       <workItem from="1605285245702" duration="541000" />
       <workItem from="1605534343305" duration="5835000" />
-      <workItem from="1605562030901" duration="3303000" />
+      <workItem from="1605562030901" duration="3347000" />
+      <workItem from="1605569934194" duration="343000" />
+      <workItem from="1605632391301" duration="913000" />
+      <workItem from="1605781446859" duration="777000" />
+      <workItem from="1605879936110" duration="491000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1604254115187</created>
@@ -141,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605548988514</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added Placeholder Phaser Logo Animation">
+      <created>1605566492222</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605566492222</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +177,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -169,12 +206,17 @@
     <MESSAGE value="Changed Colour of header and footer, made menu buttons stick" />
     <MESSAGE value="Added Phaser File" />
     <MESSAGE value="Tweaks and Fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tweaks and Fixes" />
+    <MESSAGE value="Added Placeholder Phaser Logo Animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Placeholder Phaser Logo Animation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="567" y="284" key="Vcs.Push.Dialog.v2" timestamp="1605548990185">
+    <state x="567" y="284" key="Vcs.Push.Dialog.v2" timestamp="1605566494190">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="567" y="284" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605548990185" />
+    <state x="567" y="284" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605566494190" />
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605880353727">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605880353727" />
   </component>
 </project>
