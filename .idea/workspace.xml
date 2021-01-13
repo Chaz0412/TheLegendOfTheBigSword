@@ -26,12 +26,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dd753e1-f588-43b9-8b91-217c92e661ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Public/assets/designAssets/ArtDirectionImage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/assets/designAssets/Features_Image.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/assets/designAssets/Level Design_Image.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/assets/designAssets/Overview_Image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/JS/ShooterPractice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/JS/Test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/assets/GameAssets/Background/WebDevBackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/assets/Player/knight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/assets/Sword.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Public/Design.html" beforeDir="false" afterPath="$PROJECT_DIR$/Public/Design.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/CSS/MyCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/Public/CSS/MyCSS.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/JS/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/Public/JS/game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Play.html" beforeDir="false" afterPath="$PROJECT_DIR$/Public/Play.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +45,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -60,18 +63,22 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Public/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Public/JS" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\assets\GameAssets\Background" />
+      <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\assets\GameAssets" />
+      <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\assets\Player" />
+      <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\assets" />
+      <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\JS" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\JS" />
       <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\assets" />
       <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\assets\designAssets" />
-      <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\assets" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -109,6 +116,19 @@
       <workItem from="1605887839433" duration="3749000" />
       <workItem from="1605892141681" duration="341000" />
       <workItem from="1605974518020" duration="4277000" />
+      <workItem from="1607879596473" duration="135000" />
+      <workItem from="1607879741573" duration="2941000" />
+      <workItem from="1607896557349" duration="5788000" />
+      <workItem from="1607971060925" duration="314000" />
+      <workItem from="1607972173415" duration="205000" />
+      <workItem from="1608145918583" duration="4342000" />
+      <workItem from="1608201606996" duration="1125000" />
+      <workItem from="1609613168947" duration="54000" />
+      <workItem from="1609613505778" duration="17000" />
+      <workItem from="1609614378554" duration="1368000" />
+      <workItem from="1609691078918" duration="2439000" />
+      <workItem from="1610380319003" duration="4005000" />
+      <workItem from="1610481035387" duration="3886000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1604254115187</created>
@@ -280,6 +300,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Moved Game Window" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2635" y="282" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607879831448">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2635" y="282" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1607879831448" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1605883473087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
