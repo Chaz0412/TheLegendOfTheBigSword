@@ -26,15 +26,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dd753e1-f588-43b9-8b91-217c92e661ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Public/JS/ShooterPractice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/JS/Test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/assets/GameAssets/Background/WebDevBackground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/assets/Player/knight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/assets/Sword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/JS/NewShooter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/assets/GameAssets/Enemy/EnemySpriteSheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/assets/GameAssets/Enemy/enemy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/assets/GameAssets/Swords/shot-sword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/assets/GameAssets/Walls/Block-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/assets/Level.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/assets/Player/BlueKnight_entity_000_basic attack 1_000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/assets/long-sword.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Public/CSS/MyCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/Public/CSS/MyCSS.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Public/JS/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/Public/JS/game.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Public/Play.html" beforeDir="false" afterPath="$PROJECT_DIR$/Public/Play.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/JS/ShooterPractice.js" beforeDir="false" afterPath="$PROJECT_DIR$/Public/JS/ShooterPractice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/assets/Player/knight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/assets/Sword.png" beforeDir="false" afterPath="$PROJECT_DIR$/Public/assets/Sword.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,19 +66,20 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Public/JS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Public/assets/Player" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\assets\GameAssets\Background" />
-      <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\assets\GameAssets" />
-      <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\assets\Player" />
+      <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\assets\GameAssets\Swords" />
+      <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\assets\GameAssets\Enemy" />
       <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\assets" />
-      <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\JS" />
+      <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\assets\GameAssets\Walls" />
+      <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\assets\GameAssets\Background" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\assets\Player" />
       <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\JS" />
       <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\assets" />
       <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public" />
@@ -129,6 +133,8 @@
       <workItem from="1609691078918" duration="2439000" />
       <workItem from="1610380319003" duration="4005000" />
       <workItem from="1610481035387" duration="3886000" />
+      <workItem from="1610552758117" duration="5063000" />
+      <workItem from="1610563295869" duration="16544000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1604254115187</created>
@@ -249,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605979365467</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Added First Iteration Of Combat">
+      <created>1610552806286</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1610552806286</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +310,8 @@
     <MESSAGE value="Changed Headers and homepage completed" />
     <MESSAGE value="Addition to design page" />
     <MESSAGE value="Moved Game Window" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved Game Window" />
+    <MESSAGE value="Added First Iteration Of Combat" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added First Iteration Of Combat" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2635" y="282" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607879831448">
@@ -308,13 +322,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605883473087" />
-    <state x="567" y="284" key="Vcs.Push.Dialog.v2" timestamp="1605983891517">
+    <state x="567" y="284" key="Vcs.Push.Dialog.v2" timestamp="1610552808677">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="567" y="284" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605983891517" />
+    <state x="567" y="284" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610552808677" />
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605886361091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605886361091" />
+    <state x="623" y="225" key="search.everywhere.popup" timestamp="1610565699877">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610565699877" />
   </component>
 </project>
