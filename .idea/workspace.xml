@@ -26,18 +26,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dd753e1-f588-43b9-8b91-217c92e661ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Public/JS/NewShooter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/assets/GameAssets/Enemy/EnemySpriteSheet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/assets/GameAssets/Enemy/enemy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/assets/GameAssets/Swords/shot-sword.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/assets/GameAssets/Walls/Block-0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/assets/Level.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/assets/Player/BlueKnight_entity_000_basic attack 1_000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/assets/long-sword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/assets/GameAssets/Walls/walltilesheet.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Public/JS/ShooterPractice.js" beforeDir="false" afterPath="$PROJECT_DIR$/Public/JS/ShooterPractice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Public/assets/Player/knight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Public/assets/Sword.png" beforeDir="false" afterPath="$PROJECT_DIR$/Public/assets/Sword.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/assets/long-sword.png" beforeDir="false" afterPath="$PROJECT_DIR$/Public/assets/long-sword.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,18 +63,18 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\assets\GameAssets\Swords" />
-      <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\assets\GameAssets\Enemy" />
-      <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\assets" />
-      <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\assets\GameAssets\Walls" />
-      <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\assets\GameAssets\Background" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\assets\Player" />
       <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\JS" />
       <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\assets" />
       <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\assets\GameAssets\Walls" />
+      <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\assets\GameAssets\Swords" />
+      <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\assets\GameAssets\Enemy" />
+      <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\assets" />
+      <recent name="C:\Users\homie\WebstormProjects\TheLegendOfTheBigSwordWeb\Public\assets\GameAssets\Background" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
