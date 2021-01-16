@@ -11,6 +11,9 @@ var config = {
         preload: preload,
         create: create,
         update: update
+    },
+    audio: {
+        disableWebAudio: true
     }
 };
 
@@ -30,6 +33,8 @@ var bigSwordText;
 var gameOver = false;
 var currentSword = 'bullet'
 var lastFired = 0;
+var enemyHitSound;
+var music;
 
 var game = new Phaser.Game(config);
 
@@ -41,6 +46,8 @@ function preload ()
     this.load.image('background', 'assets/Level.png');
     this.load.image('enemy', 'assets/GameAssets/Enemy/enemy.png');
     this.load.image('wall', 'assets/GameAssets/Walls/walltilesheet.png');
+    this.load.audio('MainTheme', ['assets/Audio/MainMusic.mp3']);
+    this.load.audio('EnemyHit', ['assets/Audio/EnemyDeath.wav']);
 }
 
 function create ()
@@ -166,6 +173,13 @@ function create ()
     this.physics.add.collider(wall, enemy, playerHit, null, this);
 
     ship.setCollideWorldBounds(true);
+
+    music = this.sound.add('MainTheme');
+
+    music.loop = true;
+    music.play();
+
+    enemyHitSound = this.sound.add('EnemyHit');
 }
 
 function update (time, delta)
@@ -223,6 +237,7 @@ function update (time, delta)
 
 function enemyHit(bullet, enemys)
 {
+    enemyHitSound.play();
     enemys.disableBody(true, true);
     bullet.destroy(true);
     score += 10;
@@ -248,6 +263,8 @@ function enemyHit(bullet, enemys)
 function playerHit()
 {
     this.physics.pause();
+
+    music.pause(true);
 
     ship.setTint(0xff0000);
 
